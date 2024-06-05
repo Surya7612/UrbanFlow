@@ -87,23 +87,24 @@ urbanflow/
     ```
 
 ### API Endpoints
-#### Add Vehicle Data
 
-- URL: /vehicle
-- Method: POST
-- Payload:
-```bash
-{
-  "vehicle_id": "vehicle_1",
-  "latitude": 40.7128,
-  "longitude": -74.0060,
-  "temperature": 22.5,
-  "condition": "sunny",
-  "traffic": "heavy",
-  "emergency_type": "none",
-  "severity": "low"
-}
-```
+    **Add Vehicle Data**
+
+    - URL: /vehicle
+    - Method: POST
+    - Payload:
+    ```bash
+    {
+    "vehicle_id": "vehicle_1",
+    "latitude": 40.7128,
+    "longitude": -74.0060,
+    "temperature": 22.5,
+    "condition": "sunny",
+    "traffic": "heavy",
+    "emergency_type": "none",
+    "severity": "low"
+    }
+    ```
 ### Future Enhancements
 - **Predictive Analytics**: Implement machine learning models to predict traffic congestion, accident likelihood, and optimal routes.
 - **Anomaly Detection**: Use ML models to detect anomalies in data, such as unusual traffic patterns or sudden weather changes.
