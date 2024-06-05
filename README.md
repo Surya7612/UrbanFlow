@@ -88,7 +88,7 @@ urbanflow/
 
 ### API Endpoints
 
-    **Add Vehicle Data**
+- **Add Vehicle Data**
 
     - URL: /vehicle
     - Method: POST
