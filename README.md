@@ -55,7 +55,7 @@ urbanflow/
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/yourusername/urbanflow.git
+   git clone https://github.com/surya7612/UrbanFlow.git
    cd urbanflow
    ```
 2. **Generate Vehicle Data**
